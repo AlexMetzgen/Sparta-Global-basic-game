@@ -35,6 +35,9 @@ while(matches<3){
     matches++;
     alert("You lose " + playerChoice + " vs " + computerChoice + " Your score " + playerDisplayScore + " - " + computerDisplayScore + " Computer score");
   }
+  else {
+    alert("Invalid input");
+  }
   //detects that is the player or computer has a score of 2 whihc is greater than the opponent so they can win as its the best out of 3
   if ((computerDisplayScore==2&&playerDisplayScore<2)||(playerDisplayScore==2&&computerDisplayScore<2)){
     matches=3;
